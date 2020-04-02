@@ -33,7 +33,7 @@ DROP TABLE DesignMarketing.Competitors;
 -- Write a script to create a table to store the TVAdvertisement data.
 ---------------------------------------------------------------------
 CREATE TABLE DesignMarketing.TVAdvertisement(
-	TVAdvertisementId INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	TVAdvertisementId INT PRIMARY KEY IDENTITY (1, 1),
     TVAdvertisementName VARCHAR(50) NOT NULL,
     TVAdvertisementProduct VARCHAR(50) NOT NULL,
 	TVAdvertisementBrand VARCHAR(50) NOT NULL,
