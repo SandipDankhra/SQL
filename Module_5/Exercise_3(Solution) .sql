@@ -45,7 +45,6 @@ RAND(ABS(CHECKSUM(NewId())) % 32767)*1000
 from MediaIDS Option (MaxRecursion 32767);
 
 
--- EX: 2
 SELECT PMP.*, MO.City 
 FROM Sales.PrintMediaPlacement PMP
 JOIN Sales.MediaOutlet MO ON PMP.MediaOutletID=MO.MediaOutletID
