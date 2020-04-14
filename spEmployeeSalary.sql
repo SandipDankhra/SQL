@@ -10,4 +10,8 @@ BEGIN
 	WHERE MONTH=@MONTH)
 	FOR JSON PATH
 END
+<<<<<<< HEAD
 
+=======
+GO
+>>>>>>> 42e38ae18e2b2b0b69f090b1b3dd9ff05bd94067
