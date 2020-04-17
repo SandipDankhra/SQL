@@ -1,4 +1,4 @@
-
+use EmployeeDB
 CREATE TRIGGER TvEmployeeUpdate
 ON  dbo.vEmployeeDetails
 INSTEAD OF UPDATE
@@ -13,3 +13,10 @@ BEGIN
 	update vEmployeeDeatils set City=@city from  inserted where inserted.EmployeeId=@EmployeeId
 END
 GO
+
+update dbo.vEmployeeDetails set EmployeeName='Vishal',City='Surat' where EmployeeId = 2; 
+
+select * from Employees
+select * from EmployeeDetails
+
+Drop trigger TvEmployeeUpdate
