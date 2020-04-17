@@ -24,3 +24,20 @@ AS BEGIN
 	WHERE deleted.ListPrice > 1000 OR inserted.ListPrice > 1000;
 END;
 GO
+
+
+SELECT * FROM Marketing.CampaignBalance;
+GO
+
+
+EXEC Marketing.MoveCampaignBalance 2,3,20100;
+GO
+
+EXEC Marketing.MoveCampaignBalance 5,3,2020;
+GO
+
+SELECT * FROM Marketing.CampaignAudit;
+GO 
+
+DELETE FROM Marketing.CampaignAudit;
+GO

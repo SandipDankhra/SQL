@@ -18,3 +18,14 @@ ON deleted.CampaignID = inserted.CampaignID
 WHERE ABS(deleted.RemainingBalance  - inserted.RemainingBalance) > 10000;
 END;
 GO
+
+
+UPDATE Production.Product
+SET ListPrice=4000
+WHERE ProductID BETWEEN 600 and 603;
+GO
+
+
+
+SELECT * FROM Production.ProductAudit;
+GO 
