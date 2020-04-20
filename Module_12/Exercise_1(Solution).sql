@@ -8,7 +8,7 @@ Go
 ALTER DATABASE InternetSales   
 ADD FILE(  
     NAME =N'Data',  
-    FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\Data' 
+    FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\Data.ndf' 
 )  
 TO FILEGROUP SalesFG;  
 
