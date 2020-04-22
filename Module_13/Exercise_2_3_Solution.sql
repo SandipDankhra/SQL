@@ -1,11 +1,22 @@
-USE master
-sp_configure 'clr strict security',0
-reconfigure
+sp_configure;
+GO
+sp_configure 'show advanced options', 1;
+GO
+RECONFIGURE;
+GO
+sp_configure 'clr enabled', 1;
+GO
+RECONFIGURE;
+GO 
+sp_configure 'clr strict security',0;
+GO
+RECONFIGURE;
+GO 
 
 use AdventureWorks2014
 
 --regex funtion checked
-SELECT * FROM Production.Product WHERE [dbo].[IsRegexMatch] (Name, N'\b[Ww]heel\b') = 1; 
+SELECT * FROM Production.Product WHERE [dbo].[IsRegexMatch] (Name, N'\b[Ww]heel\b')=1; 
 
 SELECT * FROM dbo.RegexMatches(N'The quick brown fox jumped over the lazy dog.', N'[fd]o[xg]');
 

@@ -1,0 +1,6 @@
+F:\Radixweb\C-Sharp\C-Sharp(assembly-project)\ClrProjectLab\bin\Debug\ClrProjectLab.dacpac
+F:\Radixweb\C-Sharp\C-Sharp(assembly-project)\ClrProjectLab\bin\Debug\ClrProjectLab.dll
+F:\Radixweb\C-Sharp\C-Sharp(assembly-project)\ClrProjectLab\bin\Debug\ClrProjectLab.pdb
+F:\Radixweb\C-Sharp\C-Sharp(assembly-project)\ClrProjectLab\obj\Debug\ClrProjectLab.sqlprojAssemblyReference.cache
+F:\Radixweb\C-Sharp\C-Sharp(assembly-project)\ClrProjectLab\obj\Debug\ClrProjectLab.dll
+F:\Radixweb\C-Sharp\C-Sharp(assembly-project)\ClrProjectLab\obj\Debug\ClrProjectLab.pdb
